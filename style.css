@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #6a1b9a;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group button {
+    background-color: #6a1b9a;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.input-group button:hover {
+    background-color: #4a148c;
+}
+
+.lists {
+    margin-bottom: 20px;
+}
+
+.list {
+    background-color: #f3e5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.list h2 {
+    margin-top: 0;
+    color: #6a1b9a;
+}
+
+.task-input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.task-input-group input,
+.task-input-group button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.task-input-group input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-input-group input[type="number"],
+.task-input-group input[type="date"] {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.task-input-group button {
+    background-color: #6a1b9a;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.task-input-group button:hover {
+    background-color: #4a148c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.timer {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+li button {
+    background-color: #e57373;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #d32f2f;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}

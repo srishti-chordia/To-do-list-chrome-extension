@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "To-Do List",
+    "description": "A simple to-do list with timer functionality.",
+    "version": "1.0",
+    "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+        "128": "icon.png"
+    }
+    },
+"icons": {
+
+    "128": "icon.png"
+},
+"permissions": []
+}
